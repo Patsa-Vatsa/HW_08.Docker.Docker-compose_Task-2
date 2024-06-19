@@ -22,7 +22,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           registry: ghcr.io
-          username: patsa-vatsa
+          username: ${{ github.actor }}
           password: ${{ secrets.CR_TOKEN }}
 
       - name: Build and push Docker images
