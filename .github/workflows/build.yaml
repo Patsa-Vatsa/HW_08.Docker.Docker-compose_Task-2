@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/Vitaliy Shvedov/docker_build:1
+          tags: ghcr.io/VitaliyShvedov/docker_build:1
